@@ -2,7 +2,7 @@
 # Introduction
 The goal of this assignment is to use different protein structure prediction tools, and to compare their results. You will gain practical experience in performing homology modeling, as well as machine-learning based structure prediction. At the same time, you can continue to familiarize yourself with ChimeraX.
 # Input data
-You can use any entry in the Protein Data Bank (PDB) as your starting point. The entry should be a single protein, not a complex or oligomer. You will need: A) The sequence of the protein; B) The .pdb file.
+You can use any entry in the Protein Data Bank (PDB) as your starting point. For the BS tasks, the entry should be a single protein, while for the MS task a complex/oligomer is needed.
 # Tasks and output files
 1)	Introduce a change in the protein sequence. The change should be strong enough to result in an altered protein structure. So, change at least 10 amino acids that are not at the N- nor C-terminus.
 2)	Perform a homology modeling, e.g. using Swiss-Model, with this new sequence.
@@ -12,12 +12,12 @@ You can use any entry in the Protein Data Bank (PDB) as your starting point. The
 6)	Highlight the area of the protein that has the altered sequence.
 7)	Use a script (e.g. Python) that can be executed within ChimeraX to solve tasks 4-6.
 8)	Upload the following to your GitHub Classroom repository:
-A)	Original .pdb file;
-B)	Result from Swiss-Model (as .pdb file);
-C)	Result from AlphaFold (as .pdb file);
-D)	Script for task 7.;
-E)	Original and altered protein sequence (can be included in the script).
+A)	Original .pdb file
+B)	Result from Swiss-Model (as .pdb file)
+C)	Result from AlphaFold (as .pdb file)
+D)	Script for task 7.
+E)	Original and altered protein sequence (can be included in the script)
+# Additional MS student tasks (bonus credit for BS students)
+9)	Use the protein sequences of a protein complex for which a PDB entry exists. The complex can be a homo- or hetero-oligomer, but it should have a symmetrical confirmation (and AlphaFold will struggle with large proteins >2000 aa, so try to find a small complex). Use the protein sequences to predict the quaternary structure of the complex (e.g. via AlphaFold-Multimer or GalaxyGemini). Compare the predicted structure with the experimentally resolved one using ChimeraX.
 # Submission
-You must submit the assignment through GitHub Classroom by 8 am Apr 6 to get full credit. 
-# Bonus Credit
-9)	Follow the steps in the following tutorial to perform a molecular docking analysis for a protein-ligand interaction. You can either choose the given example, or your own protein of choice. Document your steps with snapshots, and upload them together with all the intermediate and final files: https://ringo.ams.stonybrook.edu/index.php/2018_DOCK_tutorial_1_with_PDBID_2NNQ
+You must submit the assignment through GitHub Classroom (or MyCourses) by 8 am Apr 4 to get full credit.
